@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <header>
+     <h1>Article V: Campaign Finanace Reform</h1>
+
      <ul id="nav">
        <li><a href="/#/" class="nav-link">Home</a></li>
        <li><a href="/#/Updates" class="nav-link">Updates</a></li>
        <li><a href="/#/Contact_Page" class="nav-link">Meet the Organizers</a></li>
+       <li><a href="/#/Schedule_Orientation" class="nav-link">Schedule Orientation</a></li>
+       <li><a href="/#/Conference_Call" class="nav-link">Join the Conference Call</a></li>
      </ul>
     </header>
     <router-view></router-view>
@@ -58,8 +62,23 @@ header {
   height: 60px;
 }
 
+h1 {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  color: #34495e;
+}
+
+h2 {
+  margin: 0px 80px;
+}
+
 a {
   color: #34495e;
   text-decoration: none;
+}
+
+p {
+  margin: 0px 80px;
 }
 </style>

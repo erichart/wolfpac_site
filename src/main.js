@@ -7,6 +7,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
 Vue.use(ElementUI)
+Vue.use(require('vue-moment-jalaali'))
 
 /* eslint-disable no-new */
 new Vue({
